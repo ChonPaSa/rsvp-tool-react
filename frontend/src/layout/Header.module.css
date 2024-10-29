@@ -1,0 +1,13 @@
+.container {
+    max-width: min(96%, 1140px); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
+    max-width: 200px;
+    display: block;
+    left: 10vw;
+    top: 20px;
+}

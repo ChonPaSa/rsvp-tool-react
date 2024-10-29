@@ -1,0 +1,153 @@
+:root {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+		sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	--black: #020001;
+	--green: #01a755;
+	--blue: #0173ba;
+	--yellow: #fdfb08;
+	--red: #eb1d27;
+	--lightgrey: #e3e3e3;
+}
+
+#root {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+  }
+  
+
+a {
+	font-weight: 500;
+	color: var(--green);
+	text-decoration: inherit;
+}
+a:hover {
+	color: var(--blue);
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+	color: var(--green);
+}
+
+h2,
+h3 {
+	color: var(--green);
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 1.8em;
+}
+
+input,
+select,
+button,
+textarea {
+	border-radius: 8px;
+	border: 2px solid var(--blue);
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #fff;
+	cursor: pointer;
+	margin: 10px;
+}
+
+button {
+	color: var(--blue);
+}
+
+button:disabled,
+button[disabled] {
+	opacity: 0.3;
+	cursor: not-allowed;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	font-size: 1.2em;
+}
+
+pre {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+		sans-serif;
+}
+
+.participants {
+	padding: 40px 40px 0 40px;
+	margin: 40px 0 0 0;
+	background-color: var(--lightgrey);
+}
+
+.participants .add-participant {
+	margin-top: -30px;
+	margin-bottom: 50px;
+}
+.rsvpform {
+	background-color: var(--lightgrey);
+	padding-bottom: 40px;
+	margin-bottom: 50px;
+}
+
+.navigationbar {
+	width: min(96%, 1140px);
+	max-width: min(96%, 1140px);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.navigationbar button {
+	border: none;
+	text-decoration: underline;
+}
+
+table {
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+table thead td {
+	font-weight: 800;
+	cursor: pointer;
+	border-bottom: 1px solid var(--green);
+}
+
+table tbody td {
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.sameuser td{
+	font-weight: 600;
+}
+
+.admin-button {
+	padding: 0.3em 0.6em;
+	border-width: 1px;
+}
